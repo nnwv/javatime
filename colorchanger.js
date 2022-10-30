@@ -28,8 +28,4 @@ document.getElementsByTagName("body")[0].style.backgroundColor = bcolor;
 setTimeout("color_changer()", 1000);
 }
 </script>
-<h1><center>Welcome To The Twilight Zone</h1></center>
-<form name = control>
-<input name = "on_off" Type = "button" value = "On" onClick = "color_changer()">
-<input type = "button" value = "Off" onClick = "history.go(0)">
-</form>
+
