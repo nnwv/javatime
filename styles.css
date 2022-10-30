@@ -17,7 +17,7 @@ body {
   overflow: hidden;
 }
 
-main {
+/* main {
   display: grid;
   grid-template-columns: repeat(auto-fit, 22.5%);
   flex-flow: row;
@@ -26,3 +26,4 @@ main {
   height: 100vh;
   width: 100vw;
 }
+ */
