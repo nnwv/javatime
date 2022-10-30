@@ -1,9 +1,18 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
 
 body {
-  
-  display: flex;
-  border: solid 5px #D28140;
-  background-color: green;
-  height: 100vh;
-  overflow-y: hidden;
+  font-family: "Baskerville", serif;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  width: 100vw;
+  background: green;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: none;
+  overflow: hidden;
 }
