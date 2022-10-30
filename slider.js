@@ -1,4 +1,4 @@
- <script>
+ 
         var imgArray = [
             'https://tile.loc.gov/storage-services/service/pnp/npcc/30000/30071r.jpg',
             'https://tile.loc.gov/storage-services/service/pnp/gtfy/00600/00634_150px.jpg',
@@ -17,4 +17,4 @@
             setTimeout("slideShow()", imgDuration);
         }
         slideShow();
-    </script>
+    
