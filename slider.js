@@ -1,8 +1,8 @@
  
         var imgArray = [
             'https://tile.loc.gov/storage-services/service/pnp/npcc/30000/30071r.jpg',
-            'https://tile.loc.gov/storage-services/service/pnp/gtfy/00600/00634_150px.jpg',
-            'https://tile.loc.gov/storage-services/service/pnp/fsa/8b16000/8b16100/8b16145_150px.jpg'
+            'https://tile.loc.gov/storage-services/service/pnp/ppss/01000/01044v.jpg',
+            'https://tile.loc.gov/storage-services/service/pnp/fsa/8b16000/8b16100/8b16145_150px.jpg',
             
            
             
