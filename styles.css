@@ -1,5 +1,7 @@
 
 body {
+  
+  border: solid 5px #D28140;
   background-color: green;
   height: 100vh;
   overflow-y: hidden;
