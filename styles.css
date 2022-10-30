@@ -29,8 +29,8 @@ body {
 
 div {
   display: flex;
-  height: 50vh;
-  
+  height: 95%;
+  vertical-align: middle;
   justify-content: center;
   align-items: center;
 }
