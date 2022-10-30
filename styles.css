@@ -18,7 +18,8 @@ body {
 }
 
  img {
-
+   
+  display: flex;
   align: middle;
   position: middle;
   align-items: center;
