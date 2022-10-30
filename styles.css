@@ -18,7 +18,9 @@ body {
 }
 
  img {
-  
+
+  align: middle;
+  position: absolute;
   align-items: center;
   justify-content: center;
   height: 100vh;
