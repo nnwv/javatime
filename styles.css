@@ -17,10 +17,17 @@ body {
   overflow: hidden;
 }
 
- main {
+ img {
   
   align-items: center;
   justify-content: center;
   height: 100vh;
 }
+ 
+/* main {
+  
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+} */
  
