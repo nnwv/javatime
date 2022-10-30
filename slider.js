@@ -11,6 +11,7 @@
         var curIndex = 0;
         var imgDuration = 10000;
 
+
         function slideShow() {
             document.getElementById('image1').src = imgArray[curIndex];
             curIndex++;
