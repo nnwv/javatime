@@ -1,14 +1,30 @@
+<!DOCTYPE html>
 <html>
- <head>
- <link rel="stylesheet" href="styles.css">
- <script src="colorchanger.js"> </script>
- </head>
- 
- <body>
-<form name = control>
-<input name = "on_off" Type = "button" value = "On" onClick = "color_changer()">
-<input type = "button" value = "Off" onClick = "history.go(0)">
-</form>
- </body>
-</html>
+<head>
+    <title>JavaScript Slideshow Demo</title>
+</head>
 
+<body>
+    <div>
+        <img id="image1" />
+    </div>
+
+    <script>
+        var imgArray = [
+            'https://tile.loc.gov/storage-services/service/pnp/npcc/30000/30071r.jpg',
+            'https://tile.loc.gov/storage-services/service/pnp/gtfy/00600/00634_150px.jpg',
+            'https://tile.loc.gov/storage-services/service/pnp/fsa/8b16000/8b16100/8b16145_150px.jpg'
+        ];
+        var curIndex = 0;
+        var imgDuration = 5000;
+
+        function slideShow() {
+            document.getElementById('image1').src = imgArray[curIndex];
+            curIndex++;
+            if (curIndex == imgArray.length) { curIndex = 0; }
+            setTimeout("slideShow()", imgDuration);
+        }
+        slideShow();
+    </script>
+</body>
+</html>
