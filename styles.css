@@ -29,7 +29,7 @@ body {
 
 div {
   display: flex;
-  height: 90vh;
+  height: 50vh;
   
   justify-content: center;
   align-items: center;
