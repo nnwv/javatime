@@ -17,7 +17,7 @@ body {
   overflow: hidden;
 }
 
- img {
+/*  img {
    
   display: flex;
   align: middle;
@@ -25,7 +25,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-}
+} */
 
 div {
   display: flex;
