@@ -35,6 +35,13 @@ div {
   align-items: center;
 }
   
+div2 {
+  display: flex;
+  height: 95%;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+}
   
   
   
