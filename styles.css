@@ -15,13 +15,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: none;
   overflow: hidden;
+
+  
+  
+  
+}
+
+p {
   border-top: 30px;
   border-right: 30px;
   border-bottom: 5px;
   border-left: 30px;
-  
-  
-  
 }
 
 /*  img {
