@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .image-container {
+        height: 100vh;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        -ms-overflow-style: none;
+      }
+      .image-container::-webkit-scrollbar {
+        display: none;
+      }
+      img {
+        height: 100vh;
+        object-fit: cover;
+        width: 7274px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-container">
+      <img src="blue-long-web.jpg"/>
+      <img src="blue-long-web.jpg"/>
+      <img src="blue-long-web.jpg"/>
+    </div>
+  </body>
+  <script>
+    // Get the container element
+    const container = document.querySelector(".image-container");
+
+    // Get all images
+    const images = document.querySelectorAll("img");
+
+    // Clone the first and last images
+    const firstImageClone = images[0].cloneNode();
+    const lastImageClone = images[images.length - 1].cloneNode();
+
+    // Append the cloned images to the container
+    container.appendChild(firstImageClone);
+    container.insertBefore(lastImageClone, images[0]);
+
+    // Listen for scroll events on the container
+    container.addEventListener("scroll", () => {
+      // Get the current scroll position
+      const scrollLeft = container.scrollLeft;
+
+      // Get the width of one image
+      const imageWidth = images[0].offsetWidth;
+
+      // Get the total width of all images
+      const totalWidth = imageWidth * images.length;
+
+      // If the user has scrolled to the end of the first set of images
+      if (scrollLeft >= totalWidth - imageWidth * 2) {
+        // Scroll back to the beginning
+        container.scrollLeft = 1;
+      }
+
+      // If the user has scrolled to the beginning of the last set of images
+      if (scrollLeft <= 0) {
+        // Scroll to the end
+        container.scrollLeft = totalWidth - imageWidth * 2 - 1;
+      }
+    });
+  </script>
+</html>
